@@ -34,7 +34,7 @@ export const PROJECTS = [
     id: "f1scorer",
     image: f1scorer,
     technologies: ["React", "React Router", "TypeScript", "TailwindCSS"],
-    links: ["https://github.com/therobhe/f1-game-point-manager", "https://f1-2014-game-point-manager.netlify.app/"]
+    links: ["https://github.com/therobhe/f1-game-point-manager", "https://f1-2014-season-manager.netlify.app/"]
   },
   {
     id: "muiDashboard",

@@ -1,7 +1,9 @@
-import { RiReactjsLine, RiNodejsLine, RiPhpLine, RiTailwindCssLine, RiBootstrapFill } from "react-icons/ri";
-import { SiMysql } from "react-icons/si";
+import { RiReactjsLine, RiNodejsLine, RiPhpLine, RiTailwindCssLine } from "react-icons/ri";
+import { SiNextdotjs, SiTypescript } from "react-icons/si";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
+
+import "../index.css"
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -31,11 +33,23 @@ export default function Techstack() {
                   whileInView={{ opacity: 1, x: 0 }}
                   initial={{ opacity: 0, x: -80 }}
                   transition={{ duration: 1 }}>
+        <motion.div className="rounded-2xl border-4 border-neutral-800 p-4 ts-icon"
+                    variants={iconVariants(1.5)}
+                    initial="initial"
+                    animate="animate">
+          <SiTypescript className="text-7xl text-blue-600" />
+        </motion.div>
         <motion.div className="rounded-2xl border-4 border-neutral-800 p-4"
                     variants={iconVariants(2.75)}
                     initial="initial"
                     animate="animate">
           <RiReactjsLine className="text-7xl text-cyan-400" />
+        </motion.div>
+        <motion.div className="rounded-2xl border-4 border-neutral-800 p-4"
+                    variants={iconVariants(1.75)}
+                    initial="initial"
+                    animate="animate">
+          <SiNextdotjs className="text-7xl text-neutral-100" />
         </motion.div>
         <motion.div className="rounded-2xl border-4 border-neutral-800 p-4"
                     variants={iconVariants(2.5)}
@@ -50,22 +64,10 @@ export default function Techstack() {
           <RiTailwindCssLine className="text-7xl text-cyan-600" />
         </motion.div>
         <motion.div className="rounded-2xl border-4 border-neutral-800 p-4"
-                    variants={iconVariants(2)}
-                    initial="initial"
-                    animate="animate">
-          <RiBootstrapFill className="text-7xl text-purple-600" />
-        </motion.div>
-        <motion.div className="rounded-2xl border-4 border-neutral-800 p-4"
                     variants={iconVariants(1.75)}
                     initial="initial"
                     animate="animate">
           <RiPhpLine className="text-7xl text-purple-700" />
-        </motion.div>
-        <motion.div className="rounded-2xl border-4 border-neutral-800 p-4"
-                    variants={iconVariants(1.5)}
-                    initial="initial"
-                    animate="animate">
-          <SiMysql className="text-7xl text-cyan-400" />
         </motion.div>
       </motion.div>
     </div>
