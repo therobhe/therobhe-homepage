@@ -4,12 +4,12 @@
   },
   "hero": {
     "headline": "Robert Heinemann",
-    "subheadline": "Frontend Web Entwickler",
+    "subheadline": "Software & Webentwickler",
     "portraitAlt": "Robert Heinemann Portrait"
   },
   "aboutMe": {
     "headline": "Über Mich",
-    "description": "Ich bin ein engagierter und vielseitiger Frontend-Entwickler mit einer Leidenschaft für die Erstellung optisch ansprechender und benutzerfreundlicher Webanwendungen. Mit 5 Jahren Berufserfahrung habe ich mit verschiedenen Technologien gearbeitet, darunter React, Node.js, TailwindCSS, Bootstrap5, Cypress, PHP und MySQL. Meine Reise in der Webentwicklung begann mit einer tiefen Neugier dafür, wie Dinge funktionieren, und hat sich zu einer Karriere entwickelt, in der ich kontinuierlich nach neuen Herausforderungen suche. Ich blühe in kollaborativen Umgebungen auf und löse gerne komplexe Probleme, um qualitativ hochwertige Lösungen zu liefern.",
+    "description": "Ich bin ein engagierter und vielseitiger Software und Web-Entwickler mit einer Leidenschaft für die Erstellung optisch ansprechender und benutzerfreundlicher Webanwendungen. Mit über 5 Jahren Berufserfahrung habe ich mit verschiedenen Technologien gearbeitet, darunter React, Node.js, TailwindCSS, Bootstrap5, Cypress, PHP und MySQL. Meine Reise in der Webentwicklung begann mit einer tiefen Neugier dafür, wie Dinge funktionieren, und hat sich zu einer Karriere entwickelt, in der ich kontinuierlich nach neuen Herausforderungen suche. Ich blühe in kollaborativen Umgebungen auf und löse gerne komplexe Probleme, um qualitativ hochwertige Lösungen zu liefern.",
     "moodImageAlt": "Robert Heinemann Software Entwickler"
   },
   "experience": {
@@ -20,7 +20,7 @@
         "year": "2025 - Heute",
         "role": "Frontend Entwickler",
         "company": "GET AG",
-        "description": "Gestaltung und Entwicklung von Benutzeroberflächen für Webanwendungen mit React."
+        "description": "Konzeption und Implementierung moderner Frontend-Anwendungen für externe Kunden. Technische Beratung im Anforderungsprozess, Machbarkeitsanalyse sowie Entwicklung effizienter und nachhaltiger Umsetzungslösungen in enger Abstimmung mit anderen Fachbereichen."
       },
       {
         "id": "lead-frontend",
@@ -50,7 +50,7 @@
     "items": [
       {
         "id": "f1scorer",
-        "title": "F1 2014 Season Tracker",
+        "title": "F1 2014 Season Manager",
         "description": "Anwendung um eine Saison im F1 2014 Splitscreen Modus zu tracken. Bietet Optionen zur Erstellung eigener Rennkalender und Punktesysteme.",
         "imageAlt": "F1 Scorer Screenshot"
       },

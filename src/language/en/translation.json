@@ -4,12 +4,12 @@
   },
   "hero": {
     "headline": "Robert Heinemann",
-    "subheadline": "Frontend Web Developer",
+    "subheadline": "Software & Web Developer",
     "portraitAlt": "Robert Heinemann Portrait"
   },
   "aboutMe": {
     "headline": "About Me",
-    "description": "I am a dedicated and versatile frontend developer with a passion for creating visually pleasing and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Node.js, TailwindCSS, Bootstrap5, Cypress, PHP and MySQL. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions.",
+    "description": "I am a dedicated and versatile software and web developer with a passion for creating visually pleasing and user-friendly web applications. With over 5 years of professional experience, I have worked with a variety of technologies, including React, Node.js, TailwindCSS, Bootstrap5, Cypress, PHP and MySQL. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions.",
     "moodImageAlt": "Robert Heinemann Software Developer"
   },
   "experience": {
@@ -20,7 +20,7 @@
         "year": "2025 - Present",
         "role": "Frontend Developer",
         "company": "GET AG",
-        "description": "Design and development of user interfaces for web applications using React."
+        "description": "Design and implementation of modern frontend applications for external clients. Technical consulting during the requirements engineering process, feasibility analysis, and development of efficient and sustainable implementation solutions in close collaboration with business stakeholders."
       },
       {
         "id": "lead-frontend",
@@ -50,7 +50,7 @@
     "items": [
       {
         "id": "f1scorer",
-        "title": "F1 2014 Season Tracker",
+        "title": "F1 2014 Season Manager",
         "description": "Application to track a season in F1 2014 split-screen mode. Offers options to create custom race calendars and point systems.",
         "imageAlt": "F1 Scorer Screenshot"
       },
