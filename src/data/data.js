@@ -58,7 +58,7 @@ export const PROJECTS = [
     id: "musterstadt",
     image: musterstadt,
     technologies: ["React", "React-Router", "TypeScript", "TailwindCSS"],
-    links: ["https://musterstadt-community-mockup.netlify.app/", "https://github.com/therobhe/community-webpage"]
+    links: ["https://github.com/therobhe/community-webpage", "https://musterstadt-community-mockup.netlify.app/",]
   },
   {
     id: "portfolio",

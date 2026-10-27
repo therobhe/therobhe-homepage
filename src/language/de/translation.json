@@ -20,28 +20,32 @@
         "year": "2025 - Heute",
         "role": "Frontend Entwickler",
         "company": "GET AG",
-        "description": "Konzeption und Implementierung moderner Frontend-Anwendungen für externe Kunden. Technische Beratung im Anforderungsprozess, Machbarkeitsanalyse sowie Entwicklung effizienter und nachhaltiger Umsetzungslösungen in enger Abstimmung mit anderen Fachbereichen."
+        "description": "Konzeption und Implementierung moderner Frontend-Anwendungen für externe Kunden. Technische Beratung im Anforderungsprozess, Machbarkeitsanalyse sowie Entwicklung effizienter und nachhaltiger Umsetzungslösungen in enger Abstimmung mit anderen Fachbereichen.",
+        "link": "https://get-ag.com/"
       },
       {
         "id": "lead-frontend",
         "year": "2024 - 2025",
         "role": "Stellvertretender Teamleiter Frontend",
         "company": "apo.com Group",
-        "description": "Gestaltung und Entwicklung von Benutzeroberflächen für Webanwendungen mit React. Implementation des Headless CMS Contentful zur Unterstützung der Content Manager bei der aktiven Shop-Aktualisierung. Durchführung von Code-Reviews, Mentoring von Junior-Entwicklern und Erweiterung der Kenntnisse im E2E-Testing mit Cypress."
+        "description": "Gestaltung und Entwicklung von Benutzeroberflächen für Webanwendungen mit React. Implementation des Headless CMS Contentful zur Unterstützung der Content Manager bei der aktiven Shop-Aktualisierung. Durchführung von Code-Reviews, Mentoring von Junior-Entwicklern und Erweiterung der Kenntnisse im E2E-Testing mit Cypress.",
+        "link": "https://group-apo.com/de/"
       },
       {
         "id": "frontend-dev",
         "year": "2021 - 2024",
         "role": "Frontend Entwickler",
         "company": "apologistics GmbH",
-        "description": "Entwicklung und Wartung eines pharmazeutischen xt:Commerce-Systems mit JavaScript und PHP sowie dessen Smarty-Engine. Überführung der Legacy Mobile/Desktop-Templates in responsive Templates mit Bootstrap5 und React. Aktive Beteiligung an der Konzeption einer eigenen Komponenten-Bibliothek basierend auf Bootstrap5. Optimierung der Webshop-Performance nach Lighthouse-Standards. Arbeit in einem mehrköpfigen Entwicklerteam nach SCRUM."
+        "description": "Entwicklung und Wartung eines pharmazeutischen xt:Commerce-Systems mit JavaScript und PHP sowie dessen Smarty-Engine. Überführung der Legacy Mobile/Desktop-Templates in responsive Templates mit Bootstrap5 und React. Aktive Beteiligung an der Konzeption einer eigenen Komponenten-Bibliothek basierend auf Bootstrap5. Optimierung der Webshop-Performance nach Lighthouse-Standards. Arbeit in einem mehrköpfigen Entwicklerteam nach SCRUM.",
+        "link": "https://group-apo.com/de/"
       },
       {
         "id": "content-manager",
         "year": "2020 - 2021",
         "role": "Content Manager Frontend",
         "company": "apologistics GmbH",
-        "description": "Entwicklung und Pflege von Content-Seiten mit JavaScript, jQuery, HTML5 und CSS. Implementierung und Analyse von A/B-Tests mit Dynamic Yield in enger Abstimmung mit dem Marketing-Team. Enge Zusammenarbeit mit dem Design-Team bei der Umsetzung neuer Features und Designs."
+        "description": "Entwicklung und Pflege von Content-Seiten mit JavaScript, jQuery, HTML5 und CSS. Implementierung und Analyse von A/B-Tests mit Dynamic Yield in enger Abstimmung mit dem Marketing-Team. Enge Zusammenarbeit mit dem Design-Team bei der Umsetzung neuer Features und Designs.",
+        "link": "https://group-apo.com/de/"
       }
     ]
   },

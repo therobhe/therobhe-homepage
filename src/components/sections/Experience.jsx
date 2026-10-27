@@ -22,7 +22,7 @@ export default function Experience() {
       </motion.h2>
       <div>
         {experienceWithTech.map((experience, index) => (
-          <div key={index} className="mb-8 flex fley-wrap lg:justify-center">
+          <div key={index} className="mb-8 py-6 flex fley-wrap lg:justify-center">
             <motion.div
               className="w-full lg:w-1/4"
               whileInView={{ opacity: 1, x: 0 }}
@@ -38,7 +38,7 @@ export default function Experience() {
               transition={{ duration: 0.5 }}
             >
               <h6 className="mb-2 font-semibold">
-                {experience.role} - <span className="text-small text-purple-100">{experience.company}</span>
+                {experience.role} - <a href={experience.link} target="_blank" className="text-small text-purple-100">{experience.company}</a>
               </h6>
               <p className="mb-2 text-sm text-neutral-400">{experience.description}</p>
               <div className="flex flex-wrap gap-2">
