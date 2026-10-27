@@ -20,28 +20,32 @@
         "year": "2025 - Present",
         "role": "Frontend Developer",
         "company": "GET AG",
-        "description": "Design and implementation of modern frontend applications for external clients. Technical consulting during the requirements engineering process, feasibility analysis, and development of efficient and sustainable implementation solutions in close collaboration with business stakeholders."
+        "description": "Design and implementation of modern frontend applications for external clients. Technical consulting during the requirements engineering process, feasibility analysis, and development of efficient and sustainable implementation solutions in close collaboration with business stakeholders.",
+        "link": "https://get-ag.com/"
       },
       {
         "id": "lead-frontend",
         "year": "2024 - 2025",
         "role": "Stand-in Teamlead Frontend",
         "company": "apo.com Group",
-        "description": "Designed and developed user interfaces for web applications using React. Implemented headless CMS Contentful to empower content managers to actively update the shop. Conducted code reviews and mentored junior developers and increased knowledge in e2e testing with Cypress."
+        "description": "Designed and developed user interfaces for web applications using React. Implemented headless CMS Contentful to empower content managers to actively update the shop. Conducted code reviews and mentored junior developers and increased knowledge in e2e testing with Cypress.",
+        "link": "https://group-apo.com/de/"
       },
       {
         "id": "frontend-dev",
         "year": "2021 - 2024",
         "role": "Frontend Developer",
         "company": "apologistics GmbH",
-        "description": "Developed and maintained a pharmaceutical xt:Commerce system using JavaScript and PHP plus its smarty engine. Transferred the legacy mobile/desktop-templates into responsive templates using Bootstrap5 and React. Actively involved in the conception of an own component library based on Bootstrap5. Optimized the performance of the web shop regarding Lighthouse standards. Worked in a multi-developer team based on SCRUM."
+        "description": "Developed and maintained a pharmaceutical xt:Commerce system using JavaScript and PHP plus its smarty engine. Transferred the legacy mobile/desktop-templates into responsive templates using Bootstrap5 and React. Actively involved in the conception of an own component library based on Bootstrap5. Optimized the performance of the web shop regarding Lighthouse standards. Worked in a multi-developer team based on SCRUM.",
+        "link": "https://group-apo.com/de/"
       },
       {
         "id": "content-manager",
         "year": "2020 - 2021",
         "role": "Content Manager Frontend",
         "company": "apologistics GmbH",
-        "description": "Developed and maintained contentpages using JavaScript, jQuery, HTML5 and CSS. Implemented and analyzed A/B-Tests with Dynamic Yield in close communication with the marketing team. Worked closely with the design team to implement new features and designs."
+        "description": "Developed and maintained contentpages using JavaScript, jQuery, HTML5 and CSS. Implemented and analyzed A/B-Tests with Dynamic Yield in close communication with the marketing team. Worked closely with the design team to implement new features and designs.",
+        "link": "https://group-apo.com/de/"
       }
     ]
   },
