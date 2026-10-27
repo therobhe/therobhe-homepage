@@ -1,9 +1,10 @@
 import { useTranslation } from "react-i18next";
 import profilePic from "../../assets/hero.webp";
 import { motion } from "framer-motion";
+import type { Variants } from "framer-motion";
 
 // configuration for the starting and ending position of the animation
-const sliderVariants = (delay, startingPos) => ({
+const sliderVariants = (delay: number, startingPos: number): Variants => ({
   hidden: { x: startingPos, opacity: 0 },
   visible: {
     x: 0,

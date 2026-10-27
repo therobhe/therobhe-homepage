@@ -8,8 +8,20 @@ import muiDashboard from "../assets/projects/muiDashboard.webp";
 import f1scorer from "../assets/projects/f1scorer.webp";
 /*import project4 from "../assets/projects/project-4.webp";*/
 
+interface ExperienceTechnology {
+  id: string;
+  technologies: string[];
+}
+
+interface Project {
+  id: string;
+  image: string;
+  technologies: string[];
+  links: string[];
+}
+
 /* Experiences */
-export const EXPERIENCES = [
+export const EXPERIENCES: ExperienceTechnology[] = [
   {
     id: "get-ag",
     technologies: ["React", "Next.js", "TypeScript", "TailwindCSS", "MaterialUI"],
@@ -29,7 +41,7 @@ export const EXPERIENCES = [
 ];
 
 /* Projects */
-export const PROJECTS = [
+export const PROJECTS: Project[] = [
   {
     id: "f1scorer",
     image: f1scorer,
@@ -63,7 +75,7 @@ export const PROJECTS = [
   {
     id: "portfolio",
     image: project3,
-    technologies: ["React", "TailwindCSS", "FramerMotion"],
+    technologies: ["React","TypeScript", "TailwindCSS", "FramerMotion"],
     links: ["https://github.com/therobhe/react-homepage/"]
   },
 /*  {

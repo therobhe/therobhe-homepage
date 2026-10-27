@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import profilePic from "../../assets/about.webp";
-import Techstack from "../Techstack.jsx";
+import Techstack from "../Techstack";
 import { motion } from "framer-motion";
 
 export default function AboutMe() {

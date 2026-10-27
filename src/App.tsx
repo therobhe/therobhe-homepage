@@ -1,8 +1,8 @@
-import Header from './components/areas/Header.jsx';
-import Main from './components/areas/Main.jsx';
-import Footer from './components/areas/Footer.jsx';
+import Header from './components/areas/Header';
+import Main from './components/areas/Main';
+import Footer from './components/areas/Footer';
 
-import { ModalProvider } from './context/ModalContext.jsx';
+import { ModalProvider } from './context/ModalContext';
 
 function App() {
 

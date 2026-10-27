@@ -1,11 +1,12 @@
 import { RiReactjsLine, RiNodejsLine, RiPhpLine, RiTailwindCssLine } from "react-icons/ri";
 import { SiNextdotjs, SiTypescript } from "react-icons/si";
 import { motion } from "framer-motion";
+import type { Variants } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
 import "../index.css"
 
-const iconVariants = (duration) => ({
+const iconVariants = (duration: number): Variants => ({
   initial: { y: -10 },
   animate: {
     y: [10, -10],

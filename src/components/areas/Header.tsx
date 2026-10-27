@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <header>
       <nav aria-label="Further links navigation" className="mb-20 flex items-center justify-between py-6">
-        <div className="flex flex-shrink-0 items-center">
+        <div className="flex shrink-0 items-center">
           <img src={logo} alt={t('header.logoAlt')} className="mx-2 w-20" />
         </div>
         <div className="icons m-8 flex items-center justify-center gap-4 text-2xl">

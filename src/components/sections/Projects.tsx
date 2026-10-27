@@ -1,4 +1,4 @@
-import { PROJECTS } from '../../data/data.js'
+import { PROJECTS } from '../../data/data'
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
@@ -9,7 +9,7 @@ export default function Projects () {
 	const projectsWithTech = t('projects.items', { returnObjects: true }).
 	map((project) => ({
 		...project,
-		...PROJECTS.find(p => p.id === project.id) || {},
+		...PROJECTS.find(p => p.id === project.id)!,
 	}))
 	
 	return (
@@ -42,7 +42,7 @@ export default function Projects () {
 									src={project.image}
 									width={274}
 									height={274}
-									alt={t(`projects.items.${index}.imageAlt`)}
+									alt={project.imageAlt}
 									className="mb-6 rounded-2xl"
 								/>
 							</a>

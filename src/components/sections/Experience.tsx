@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
-import { EXPERIENCES } from "../../data/data.js";
+import { EXPERIENCES } from "../../data/data";
 
 export default function Experience() {
   const { t } = useTranslation();
