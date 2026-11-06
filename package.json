@@ -4,6 +4,11 @@
   "version": "0.1.0",
   "type": "module",
   "homepage": "https://robhe.netlify.app",
+  "overrides": {
+    "@typescript-eslint/typescript-estree": {
+      "minimatch": "^11.0.1"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
